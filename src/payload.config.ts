@@ -76,7 +76,7 @@ export default buildConfig({
     s3Storage({
       collections: {
         'media': {
-          prefix: "seo",
+          prefix: "media",
         },
       },
       bucket: S3.BUCKET!,
