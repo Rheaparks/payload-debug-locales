@@ -102,7 +102,7 @@ export default buildConfig({
     }),
   ],
   email: nodemailerAdapter({
-    defaultFromAddress: 'cms@leafty.app',
+    defaultFromAddress: 'contact@example.com',
     defaultFromName: 'Payload CMS > Leafty',
     // Nodemailer transportOptions
     transportOptions: {
